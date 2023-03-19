@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://.com",
+  "scripts": {
+    "start": "marp -ps",
+    "build": "marp && cp -r assets dist/assets"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.4.0"
+  }
+}
