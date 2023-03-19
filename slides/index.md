@@ -71,7 +71,7 @@ putStr :: (RealWorld, String) -> RealWorld
 echo :: RealWorld -> RealWorld
 echo rw0 =
   let (rw1, str) = getLine rw0
-      rw2 = putStr rw1
+      rw2 = putStr (rw1, str)
   in rw2
 ```
 
